@@ -1,0 +1,11 @@
+services:
+  pqrs:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - pqrs_data:/app/data
+volumes:
+  pqrs_data:

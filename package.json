@@ -1,0 +1,13 @@
+{
+  "name": "atencion-ciudadana-pqrs",
+  "version": "1.0.0",
+  "description": "Sistema gratuito de atención ciudadana (PQRS) para entidades públicas. Sin dependencias externas.",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node server.js",
+    "prueba": "node scripts/prueba.js",
+    "respaldo": "node scripts/respaldo.js"
+  }
+}
